@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "template-collection",
-      "disabled": true,
       "settings": {
         "layout": "grid",
         "grid": 3,
