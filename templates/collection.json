@@ -14,9 +14,10 @@
     },
     "86de50ff-46f8-47b9-ad91-81cab4895dca": {
       "type": "collection-template",
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
-        "collection": "best-seller",
+        "collection": "frontpage",
         "grid": 3,
         "rows": 5,
         "show_vendor": false,
