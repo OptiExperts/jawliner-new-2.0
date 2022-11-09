@@ -1,6 +1,7 @@
 <div class="page-width">
   {% if section.settings.title != blank %}
     <div class="section-header text-center">
+      <h1>this is a test</h1>
       <h2>{{ section.settings.title | escape }}</h2>
     </div>
   {% endif %}
@@ -17,7 +18,6 @@
   {% endcase %}
 
   <div class="collection-grid">
-    <h1>this is a test</h1>
     <ul class="grid grid--uniform">
       {% for block in section.blocks limit: section.blocks.size %}
         <li class="grid__item {{ grid_item_width }}" {{ block.shopify_attributes }}>
