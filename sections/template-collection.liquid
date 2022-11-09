@@ -89,7 +89,30 @@
 
   {%- assign product_limit = section.settings.grid | times: section.settings.rows -%}
 
+      <div class="custom-video-mob" style="width:100%;height:0px;position:relative;padding-bottom:56.250%;">
+        <iframe 
+          src="https://streamable.com/e/jmi3fy?nocontrols=1" 
+          frameborder="0" 
+          width="100%" 
+          height="100%" 
+          allowfullscreen 
+          style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;">
+        </iframe>
+      </div>
+
   <ul class="grid grid--uniform grid--view-items">
+    <li class="custom-video-desktop">
+      <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;">
+        <iframe 
+          src="https://streamable.com/e/jmi3fy?nocontrols=1" 
+          frameborder="0" 
+          width="100%" 
+          height="100%" 
+          allowfullscreen 
+          style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;">
+        </iframe>
+      </div>
+    </li>
     {% for product in collection.products limit: product_limit %}
       <li class="grid__item grid__item--{{section.id}} {{ grid_item_width }}">
         {% include 'product-card-grid', max_height: max_height %}
@@ -350,6 +373,53 @@
     </div>
   </div> 
 </center> 
+
+<style>
+  @media (min-width: 1170px) and (max-width: 8096px) {
+  .grid--uniform .medium-up--one-third:nth-child(3n + 1) {
+    clear: inherit !important;
+    }
+    .custom-video-desktop {
+      width: 66.66%; 
+      float: left;
+      display: block;
+    }
+    .custom-video-mob {
+      display: none;
+    }
+  }
+  @media (min-width: 750px) and (max-width: 1169px) {
+    .clearing-fifth {
+      clear: both !important;
+    }
+    .grid--uniform .medium-up--one-third:nth-child(3n + 1) {
+      clear:inherit !important; 
+    }
+    .custom-video-mob {
+      display: none;
+    }
+    .custom-video-desktop {
+      width: 66.66%; 
+      float: left;
+      display: block;
+    }
+  }
+    @media (min-width: 200px) and (max-width: 749px) {
+          .clearing-fifth {
+      clear: both !important;
+    }
+      .grid--uniform .small--one-half:nth-child(2n + 1) {
+        clear:inherit !important; 
+      }
+      .custom-video-desktop {
+        display: none;
+      }
+      .custom-video-mob {
+        display: block;
+        margin-bottom: 30px !important;
+      }
+    }
+</style>
 
 {% schema %}
 {
