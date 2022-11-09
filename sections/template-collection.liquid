@@ -90,27 +90,13 @@
   {%- assign product_limit = section.settings.grid | times: section.settings.rows -%}
 
       <div class="custom-video-mob" style="width:100%;height:0px;position:relative;padding-bottom:56.250%;">
-        <iframe 
-          src="{{ collection.metafields.custom.custom_collections_video }}" 
-          frameborder="0" 
-          width="100%" 
-          height="100%" 
-          allowfullscreen 
-          style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;">
-        </iframe>
+        {{ collection.metafields.custom.custom_collections_video }}
       </div>
 
   <ul class="grid grid--uniform grid--view-items">
     <li class="custom-video-desktop">
       <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;">
-        <iframe 
-          src="{{ collection.metafields.custom.custom_collections_video }}" 
-          frameborder="0" 
-          width="100%" 
-          height="100%" 
-          allowfullscreen 
-          style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;">
-        </iframe>
+      {{ collection.metafields.custom.custom_collections_video }}
       </div>
     </li>
     {% for product in collection.products limit: product_limit %}
