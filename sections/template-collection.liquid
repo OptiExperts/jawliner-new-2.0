@@ -274,7 +274,7 @@
       </div>
     </li>
         {% for product in collection.products %}
-          <li class="{% if forloop.index == 5 %} clearing-fifth {% endif %} {% if forloop.index == 5 %} clearing-eight {% endif %} {% if forloop.index == 5 %} clearing-tenth {% endif %}grid__item grid__item--{{section.id}} {{ grid_item_width }}">
+          <li class="{% if forloop.index == 5 %} clearing-fifth {% endif %} {% if forloop.index == 8 %} clearing-eight {% endif %} {% if forloop.index == 10 %} clearing-tenth {% endif %}grid__item grid__item--{{section.id}} {{ grid_item_width }}">
             {% include 'product-card-grid', max_height: max_height %}
           </li>
         {% else %}
