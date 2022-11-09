@@ -176,7 +176,6 @@
 
 <div data-section-id="{{ section.id }}" data-section-type="collection-template">
   <header class="collection-header">
-        <h1>this is a test</h1>
     {%- assign is_filter_by_available = false -%}
     {%- if section.settings.tags_enable and collection.all_tags.size > 0 -%}
       {%- assign is_filter_by_available = true -%}
@@ -254,6 +253,7 @@
       <ul class="grid grid--uniform{% if collection.products_count > 0 %} grid--view-items{% endif %}">
         {% for product in collection.products %}
           <li class="grid__item grid__item--{{section.id}} {{ grid_item_width }}">
+            <h1>this is a test</h1>
             {% include 'product-card-grid', max_height: max_height %}
           </li>
         {% else %}
