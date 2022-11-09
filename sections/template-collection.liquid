@@ -64,7 +64,6 @@
 </div>
 
 <div class="page-width">
-    <h1>this is a test</h1>
   {% if section.settings.title != blank %}
     <div class="section-header">
       <h2>{{ section.settings.title | escape }}</h2>
@@ -177,6 +176,7 @@
 
 <div data-section-id="{{ section.id }}" data-section-type="collection-template">
   <header class="collection-header">
+        <h1>this is a test</h1>
     {%- assign is_filter_by_available = false -%}
     {%- if section.settings.tags_enable and collection.all_tags.size > 0 -%}
       {%- assign is_filter_by_available = true -%}
