@@ -340,6 +340,8 @@
 
 <div id="stickycart-wrapper-ww" data-shop="jawliner.myshopify.com" data-shopId="47482"></div>
 {% include 'product-content.zipifypages', contentprt: 'footer' %}
+{{ product.metafields.custom.unique_faq }}
+<h1>test</h1>
 
 {% schema %}
 {
@@ -540,5 +542,3 @@
 
 
 <div id="looxReviews" data-product-id="{{product.id}}" class="loox-reviews-default">{{ product.metafields.loox.reviews }}</div>
-<p>test</p>
-{{ product.metafields.custom.unique_faq }}
