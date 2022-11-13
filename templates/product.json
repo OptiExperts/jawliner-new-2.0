@@ -140,9 +140,7 @@
     "bcf5f132-3044-4fde-8d8d-1ce154a797f5": {
       "type": "page",
       "settings": {
-        "page": "jawliner-3-0",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "page": "{{ product.metafields.custom.unique_faq.value }}"
       }
     }
   },
