@@ -50,6 +50,7 @@
     },
     "16618947959fbe35aa": {
       "type": "custom-faq",
+      "disabled": true,
       "blocks": {
         "15996017-0a5f-40b8-8e60-74ad83649c64": {
           "type": "header",
@@ -140,10 +141,8 @@
       "type": "page",
       "settings": {
         "page": "jawliner-3-0",
-        "heading_size": "h1",
-        "color_scheme": "background-1",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
