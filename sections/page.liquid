@@ -66,11 +66,13 @@
       float: left;
       color: #3d4246;
     }
-
+    button#accordionId p {
+    color: black !important;
+}
 </style>
 <div class="page-width">
       {%- if section.settings.page.title != blank -%}
-        <h3 style="text-align: -webkit-center;">{{ section.settings.page.title | escape }}</h3>
+        <h2 style="text-align: -webkit-center;">{{ section.settings.page.title | escape }}</h2>
       {%- else -%}
         <h1>{{ 'sections.page.title' | t }}</h1>
       {%- endif -%}
