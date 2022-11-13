@@ -50,7 +50,6 @@
     },
     "16618947959fbe35aa": {
       "type": "custom-faq",
-      "disabled": true,
       "blocks": {
         "15996017-0a5f-40b8-8e60-74ad83649c64": {
           "type": "header",
