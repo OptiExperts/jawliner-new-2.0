@@ -85,7 +85,7 @@ or template.name == 'blog'
           {% if block.settings.title contains "Jawline-Exercise-Plan per E-Mail?" %}
           <p style="padding: 15px 0px 0px 15px;" class="h4">{{ block.settings.title | escape }}</p>
           {% else %}
-          <button style="border: 0px; background: transparent;" id="accordionId" class="accordion">
+          <button id="accordionId-footer" class="accordion">
             <p style="width:100%" class="h4">{{ block.settings.title | escape }}</p>
           </button>
           {% endif %}
@@ -550,6 +550,14 @@ or template.name == 'blog'
 {% endschema %}
 <style>
 
+  @media (min-width: 701px) and (max-width: 8000px) {
+
+
+    button#accordionId-footer {
+      border: 0px;
+      background: transparent;
+    }
+  }
   @media (min-width: 200px) and (max-width: 749px) {
 
 
@@ -563,7 +571,7 @@ or template.name == 'blog'
       width: 89%;
     }
 
-    button#accordionId {
+    button#accordionId-footer {
       /* width: 100%; */
       float: right;
     }
