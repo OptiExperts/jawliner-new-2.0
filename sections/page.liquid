@@ -1,6 +1,73 @@
 
 
 
+<style>
+  @media (min-width: 1025px) and (max-width: 9024px) {
+  
+  #shopify-section-template--15173368938633__16618947959fbe35aa {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media (min-width: 220px) and (max-width: 1024px) {
+
+#shopify-section-template--15173368938633__16618947959fbe35aa {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+}
+
+.accordion-custom {
+      background-color: #E6E6E6;
+      color: #000;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+    }
+
+    .active, .accordion-custom:hover {
+      background-color: #ccc;
+    }
+
+    .accordion-custom:after {
+      content: '\002B';
+        color: #000;
+        float: right;
+        margin-left: 5px;
+
+    }
+
+    .active:after {
+      content: "\2212";
+    }
+
+    .panelcustom {
+      padding: 0 18px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+    
+    #cus-faq {
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: #61696f !important;
+    } 
+    p.h4 {
+      width: 89%;
+      margin-bottom: 12.5px;
+      float: left;
+      color: #3d4246;
+    }
+
+</style>
       {%- if section.settings.page.title != blank -%}
         {{ section.settings.page.title | escape }}
       {%- else -%}
@@ -17,7 +84,22 @@
       {%- endif -%}
    
 
-
+<script>
+    var accc = document.getElementsByClassName("accordion-custom");
+    var ij;
+    
+    for (ij = 0; ij < accc.length; ij++) {
+      accc[ij].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panelcustom = this.nextElementSibling;
+        if (panelcustom.style.maxHeight) {
+          panelcustom.style.maxHeight = null;
+        } else {
+          panelcustom.style.maxHeight = panelcustom.scrollHeight + "px";
+        } 
+      });
+    }
+</script>
 
 {% schema %}
 {
