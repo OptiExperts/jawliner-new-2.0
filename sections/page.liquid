@@ -70,7 +70,7 @@
 </style>
 <div class="page-width">
       {%- if section.settings.page.title != blank -%}
-        {{ section.settings.page.title | escape }}
+        <h3>{{ section.settings.page.title | escape }}</h3>
       {%- else -%}
         <h1>{{ 'sections.page.title' | t }}</h1>
       {%- endif -%}
