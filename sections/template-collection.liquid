@@ -177,11 +177,11 @@
     {% endif %}
 
   </div>
-  <h1>this is a test</h1>
-  {% section 'collection-template2' %}
-  {% section 'collection-template3' %}
-  {% section 'collection-template4' %}
-
+  {%- comment -%}
+    {% section 'collection-template2' %}
+    {% section 'collection-template3' %}
+    {% section 'collection-template4' %}
+  {%- endcomment -%}
 {% else %}
 
   {% case section.settings.grid %}
