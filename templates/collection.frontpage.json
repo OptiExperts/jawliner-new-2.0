@@ -1,0 +1,98 @@
+{
+  "sections": {
+    "main": {
+      "type": "template-collection",
+      "settings": {
+        "layout": "grid",
+        "grid": 3,
+        "rows": 8,
+        "show_collection_image": true,
+        "show_vendor": false,
+        "sort_enable": true,
+        "tags_enable": true
+      }
+    },
+    "cafd7cd2-1ae2-4e04-b6b7-7164f4299270": {
+      "type": "collection-template",
+      "settings": {
+        "title": "Best Seller",
+        "collection": "best-seller",
+        "grid": 3,
+        "rows": 1,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    },
+    "e44bc0b4-c5c4-40b3-bdc9-c86892aa2fdf": {
+      "type": "collection-template",
+      "settings": {
+        "title": "Jawliner 3.0",
+        "collection": "jawliner-3-0",
+        "grid": 3,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    },
+    "7ef3b74b-9c81-44bb-a787-afaa98b94e9b": {
+      "type": "collection-template",
+      "settings": {
+        "title": "coaching",
+        "collection": "coaching",
+        "grid": 3,
+        "rows": 1,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    },
+    "2f9be920-243a-4963-a594-2caed86ecb08": {
+      "type": "logo-bar",
+      "blocks": {
+        "template--15394865709193__2f9be920-243a-4963-a594-2caed86ecb08-1668447613bb2a8266-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2020-05-24_at_23.18.35_160x160_2x_480x480_8862bc4d-b53d-4325-9dab-30b60f1fbf0b.jpg",
+            "link": ""
+          }
+        },
+        "template--15394865709193__2f9be920-243a-4963-a594-2caed86ecb08-1668447613bb2a8266-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/food_grade_safe_480x480_f3f1c1ba-5989-4885-a85a-1750c8ee8d02.jpg",
+            "link": ""
+          }
+        },
+        "template--15394865709193__2f9be920-243a-4963-a594-2caed86ecb08-1668447613bb2a8266-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo_480x480_b8e697d4-76c2-4926-b72e-ba55d97e62af.jpg",
+            "link": ""
+          }
+        },
+        "template--15394865709193__2f9be920-243a-4963-a594-2caed86ecb08-1668447613bb2a8266-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/text-build_480x480_f4c8cf46-1a87-460d-b05c-1cd4ad8fee2c.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15394865709193__2f9be920-243a-4963-a594-2caed86ecb08-1668447613bb2a8266-0",
+        "template--15394865709193__2f9be920-243a-4963-a594-2caed86ecb08-1668447613bb2a8266-1",
+        "template--15394865709193__2f9be920-243a-4963-a594-2caed86ecb08-1668447613bb2a8266-2",
+        "template--15394865709193__2f9be920-243a-4963-a594-2caed86ecb08-1668447613bb2a8266-3"
+      ],
+      "settings": {
+        "title": "Certificates"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cafd7cd2-1ae2-4e04-b6b7-7164f4299270",
+    "e44bc0b4-c5c4-40b3-bdc9-c86892aa2fdf",
+    "7ef3b74b-9c81-44bb-a787-afaa98b94e9b",
+    "2f9be920-243a-4963-a594-2caed86ecb08"
+  ]
+}
