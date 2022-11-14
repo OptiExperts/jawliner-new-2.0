@@ -33,11 +33,23 @@
         "show_vendor": false,
         "show_view_all": false
       }
+    },
+    "7ef3b74b-9c81-44bb-a787-afaa98b94e9b": {
+      "type": "collection-template",
+      "settings": {
+        "title": "coaching",
+        "collection": "coaching",
+        "grid": 3,
+        "rows": 1,
+        "show_vendor": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
     "main",
     "cafd7cd2-1ae2-4e04-b6b7-7164f4299270",
-    "e44bc0b4-c5c4-40b3-bdc9-c86892aa2fdf"
+    "e44bc0b4-c5c4-40b3-bdc9-c86892aa2fdf",
+    "7ef3b74b-9c81-44bb-a787-afaa98b94e9b"
   ]
 }
