@@ -42,7 +42,7 @@
 {% include 'shogun-products', content: collection %}
 {{collection.metafields.shogun.above}}
 
-{% if collection.url contains 'frontpage' %}
+
 
 <div class="section-header text-center">
 <h1>
@@ -128,12 +128,7 @@
   {% endif %}
 
 </div>
-<h1>this is a test</h1>
-{% section 'collection-template2' %}
-{% section 'collection-template3' %}
-{% section 'collection-template4' %}
 
-{% else %}
 
 {% case section.settings.grid %}
   {% when 2 %}
@@ -354,7 +349,6 @@
 
 {% endpaginate %}
 
-{% endif %}
 
 {{collection.metafields.shogun.below}}
 
