@@ -11,9 +11,33 @@
         "sort_enable": true,
         "tags_enable": true
       }
+    },
+    "cafd7cd2-1ae2-4e04-b6b7-7164f4299270": {
+      "type": "collection-template",
+      "settings": {
+        "title": "Best Seller",
+        "collection": "best-seller",
+        "grid": 3,
+        "rows": 1,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    },
+    "e44bc0b4-c5c4-40b3-bdc9-c86892aa2fdf": {
+      "type": "collection-template",
+      "settings": {
+        "title": "Jawliner 3.0",
+        "collection": "jawliner-3-0",
+        "grid": 3,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "cafd7cd2-1ae2-4e04-b6b7-7164f4299270",
+    "e44bc0b4-c5c4-40b3-bdc9-c86892aa2fdf"
   ]
 }
