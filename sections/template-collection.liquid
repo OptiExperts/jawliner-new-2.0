@@ -466,7 +466,7 @@
 {% endif %}
 
 {{collection.metafields.shogun.below}}
-
+{%- comment -%}
 {% assign certificates = "Certificates" %}
 <center>
   <div class="certificates">
@@ -480,7 +480,7 @@
     </div>
   </div>
 </center>
-
+{%- endcomment -%}
 <style>
   @media(min-width: 1170px) and (max-width: 8096px) {
     .grid--uniform .medium-up--one-third:nth-child(3n + 1) {
