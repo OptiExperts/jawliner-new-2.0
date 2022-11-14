@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "template-collection",
+      "type": "template-collection-frontpage",
       "settings": {
         "layout": "grid",
         "grid": 3,
