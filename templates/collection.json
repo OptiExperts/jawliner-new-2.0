@@ -11,9 +11,21 @@
         "sort_enable": true,
         "tags_enable": true
       }
+    },
+    "6e9f9209-cf9b-43fd-91bc-f7b71621ae18": {
+      "type": "collection-template",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "",
+        "grid": 3,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "6e9f9209-cf9b-43fd-91bc-f7b71621ae18"
   ]
 }
