@@ -58,18 +58,21 @@
         "template--15394865709193__2f9be920-243a-4963-a594-2caed86ecb08-1668447613bb2a8266-1": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/food_grade_safe_480x480_f3f1c1ba-5989-4885-a85a-1750c8ee8d02.jpg",
             "link": ""
           }
         },
         "template--15394865709193__2f9be920-243a-4963-a594-2caed86ecb08-1668447613bb2a8266-2": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/logo_480x480_b8e697d4-76c2-4926-b72e-ba55d97e62af.jpg",
             "link": ""
           }
         },
         "template--15394865709193__2f9be920-243a-4963-a594-2caed86ecb08-1668447613bb2a8266-3": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/text-build_480x480_f4c8cf46-1a87-460d-b05c-1cd4ad8fee2c.jpg",
             "link": ""
           }
         }
