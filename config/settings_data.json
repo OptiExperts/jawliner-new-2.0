@@ -160,10 +160,10 @@
       "1572215024178": {
         "type": "feature-row",
         "settings": {
-          "image": "shopify:\/\/shop_images\/jawliner_3.0_advanced_jawline_trainer_jaw_exerciser_animation_picture_tin_and_jawliner_pair.jpg",
+          "image": "shopify:\/\/shop_images\/jawliner_fitness_chewing_gum_2.0_518e7dff-0b40-4292-8828-15288e5d1ee5.jpg",
           "layout": "right",
-          "title": "The proved jaw workout gum from Germany",
-          "text": "<p>✓ Designed for professional jawline training<br\/>✓ Tested by Doctors<br\/>✓ 12 months warranty <br\/><br\/>The new <a href=\"\/products\/advanced-one-pair\" title=\"JAWLINER® 3.0 - Advanced\">JAWLINER 3.0<\/a> jawline exerciser is an update to our successful JAWLINER 2.0. Developed in Germany, this jawline trainer is the ideal solution for your professional jaw workout.<br\/>The improved material quality from Germany guarantees 80% more durability for your powerful jaw muscle workout experience.<\/p>",
+          "title": "The Proved Jawline Chewing Gum from Germany",
+          "text": "<p>✓ Designed for professional jawline training<br\/>✓ Tested by Doctors<br\/>✓ hardest chewing gum in the world<br\/><br\/>Our new <a href=\"\/products\/jawliner-fitness-chewing-gum\" title=\"JAWLINER® Facial Fitness Chewing Gum\">JAWLINER Fitness Chewing Gum 2.0<\/a> is a really effective jawline exerciser and a simple chewing gum at the same time. Developed in Germany, this new chewing gum combines fresh mint flavour and by far the easiest jaw muscle workout experience.<\/p>",
           "button_label": "Buy now",
           "button_link": "shopify:\/\/collections\/frontpage"
         }
@@ -345,7 +345,7 @@
           "6057a9e1-d4ae-487d-9134-8baf84b11f3a": {
             "type": "html",
             "settings": {
-              "code": "<div class=\"cta-wrapper\"><a href=\"https:\/\/jawliner.de\/collections\/frontpage\" target=\"_blank\"><button class=\"btn\">Join the Community<\/button><\/a><\/div>",
+              "code": "<div style=\"text-align: -webkit-center;\" class=\"cta-wrapper\"><a href=\"https:\/\/jawliner.de\/collections\/frontpage\" target=\"_blank\"><button class=\"btn\">Join the Community<\/button><\/a><\/div>",
               "width": "100%"
             }
           }
@@ -500,8 +500,8 @@
           "7bf34285-8be0-4b0f-a811-1b214a34c9c8": {
             "type": "text",
             "settings": {
-              "title": "JAWLINER® Fitness Chewing Gum",
-              "text": "<p>✓ you just need to chew gum to get an attractive jawline<br\/>✓ without sugar and aspartame<br\/>✓ tested by doctors and orthodontists<\/p><p><\/p><p>Introducing the hardest chewing gum in the world, specially designed to train your jaw muscles. We are proud to present our brand new <a href=\"\/products\/jawliner-fitness-chewing-gum\" title=\"JAWLINER® Fitness Chewing Gum\">JAWLINER® Fitness Chwing Gum<\/a>, the first chewing gum for jawline training on the market.<\/p>",
+              "title": "JAWLINER® Fitness Chewing Gum 2.0",
+              "text": "<p>✓ you just need to chew gum to get an attractive jawline<br\/>✓ without sugar and aspartame<br\/>✓ tested by doctors and orthodontists<\/p><p><\/p><p>Introducing the hardest chewing gum in the world, specially designed to train your jaw muscles. We are proud to present our brand new <a href=\"\/products\/jawliner-fitness-chewing-gum\" title=\"JAWLINER® Fitness Chewing Gum\">JAWLINER® Fitness Chwing Gum 2.0<\/a>, the first chewing gum for jawline training on the market.<\/p>",
               "width": "100%",
               "alignment": "center",
               "align_text": "left"
