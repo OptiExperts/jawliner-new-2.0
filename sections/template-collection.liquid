@@ -71,7 +71,7 @@
   .h1,
   h1 {
     font-size: 2em;
-    color: #545557;
+    color: #545557 !important;
   }
   {% if template contains 'collection' %}
     .index-section {
@@ -81,6 +81,7 @@
       margin-bottom: 0 !important;
     }
   {% endif %}
+  .h3 { color: #545557 !important; }
 </style>
 
 {% include 'shogun-products', content: collection %}
