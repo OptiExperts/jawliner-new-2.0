@@ -345,7 +345,7 @@
           "6057a9e1-d4ae-487d-9134-8baf84b11f3a": {
             "type": "html",
             "settings": {
-              "code": "<div class=\"cta-wrapper\"><a href=\"https:\/\/jawliner.de\/collections\/frontpage\" target=\"_blank\"><button class=\"btn\">Join the Community<\/button><\/a><\/div>",
+              "code": "<div style=\"text-align: -webkit-center;\" class=\"cta-wrapper\"><a href=\"https:\/\/jawliner.de\/collections\/frontpage\" target=\"_blank\"><button class=\"btn\">Join the Community<\/button><\/a><\/div>",
               "width": "100%"
             }
           }
