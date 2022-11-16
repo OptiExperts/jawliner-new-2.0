@@ -21,13 +21,13 @@
         "tags_enable": true
       }
     },
-    "cafd7cd2-1ae2-4e04-b6b7-7164f4299270": {
-      "type": "collection-template",
+    "ec9029df-a94e-41fa-b5f8-94014e008f3b": {
+      "type": "collection-template-without-video",
       "settings": {
         "title": "Best Seller",
         "collection": "best-seller",
         "grid": 3,
-        "rows": 1,
+        "rows": 2,
         "show_vendor": false,
         "show_view_all": false
       }
@@ -96,11 +96,11 @@
         "title": "Certificates"
       }
     },
-    "ec9029df-a94e-41fa-b5f8-94014e008f3b": {
+    "0be840e8-98d8-497a-a8e8-4292af09958c": {
       "type": "collection-template-without-video",
       "settings": {
-        "title": "Best Seller",
-        "collection": "best-seller",
+        "title": "coaching",
+        "collection": "coaching",
         "grid": 3,
         "rows": 2,
         "show_vendor": false,
@@ -111,10 +111,10 @@
   "order": [
     "951b3a15-e38d-4b20-854b-d203f00c16e4",
     "main",
-    "cafd7cd2-1ae2-4e04-b6b7-7164f4299270",
+    "ec9029df-a94e-41fa-b5f8-94014e008f3b",
     "e44bc0b4-c5c4-40b3-bdc9-c86892aa2fdf",
     "7ef3b74b-9c81-44bb-a787-afaa98b94e9b",
     "2f9be920-243a-4963-a594-2caed86ecb08",
-    "ec9029df-a94e-41fa-b5f8-94014e008f3b"
+    "0be840e8-98d8-497a-a8e8-4292af09958c"
   ]
 }
