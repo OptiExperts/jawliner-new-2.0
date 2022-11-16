@@ -515,47 +515,6 @@
         "settings": {
           "title": "Our brand new Jawline Gum"
         }
-      },
-      "1661892767b3828a82": {
-        "type": "custom-faq",
-        "disabled": true,
-        "blocks": {
-          "28343669-24dd-484a-aeb9-e9862e4a336e": {
-            "type": "header",
-            "settings": {
-              "header": "testing"
-            }
-          },
-          "75a193e7-0116-43d9-b3b0-65bcc509cfd8": {
-            "type": "slide",
-            "settings": {
-              "question": "Question #1",
-              "answer": "Answer # 1"
-            }
-          },
-          "0d2ad9cf-b87a-43cb-a556-f0dc08271029": {
-            "type": "slide",
-            "settings": {
-              "question": "Question # 2",
-              "answer": "Answer # 2"
-            }
-          },
-          "d319bf11-829b-4de6-b26b-72e5efb6d9ef": {
-            "type": "slide",
-            "settings": {
-              "question": "Question # 3",
-              "answer": "Answer # 3"
-            }
-          }
-        },
-        "block_order": [
-          "28343669-24dd-484a-aeb9-e9862e4a336e",
-          "75a193e7-0116-43d9-b3b0-65bcc509cfd8",
-          "0d2ad9cf-b87a-43cb-a556-f0dc08271029",
-          "d319bf11-829b-4de6-b26b-72e5efb6d9ef"
-        ],
-        "settings": {
-        }
       }
     },
     "content_for_index": [
@@ -572,8 +531,7 @@
       "1610712737335ce830",
       "1554565558875",
       "1624971240a491eb44",
-      "1559037978984",
-      "1661892767b3828a82"
+      "1559037978984"
     ],
     "blocks": {
       "10436698916776057164": {
