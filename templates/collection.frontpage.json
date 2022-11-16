@@ -1,5 +1,14 @@
 {
   "sections": {
+    "951b3a15-e38d-4b20-854b-d203f00c16e4": {
+      "type": "rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "Top products for your Jawline training",
+        "text": "<p><a href=\"https:\/\/jawliner.de\/#quiz-BZHrQV\">Help me choose my JAWLINER<\/a><\/p><p><\/p>",
+        "text_size": "medium"
+      }
+    },
     "main": {
       "type": "template-collection-frontpage",
       "settings": {
@@ -89,6 +98,7 @@
     }
   },
   "order": [
+    "951b3a15-e38d-4b20-854b-d203f00c16e4",
     "main",
     "cafd7cd2-1ae2-4e04-b6b7-7164f4299270",
     "e44bc0b4-c5c4-40b3-bdc9-c86892aa2fdf",
