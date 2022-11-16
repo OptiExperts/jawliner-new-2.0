@@ -2,6 +2,21 @@
 {%- capture LS_INPUT -%}<!doctype html>
 {% comment ls-rpl %}<html class="no-js" lang="{{ shop.locale }}">{% endcomment %}<html class="no-js" lang="{%- render "ls-language" -%}" dir="{%- render "ls-language-direction" -%}">{% comment /ls-rpl %}{% endcomment %}
 <head>
+
+{% if products.url contains 'jawliner-fitness-chewing-gum' %}
+<style>
+  .product-form__cart-submit {
+    color: #14B795 !important;
+  }
+  #corner-sticky_atc-cta_section {
+    color: #14B795 !important;
+  }
+  .loox-icon .loox-star {
+    color: #14B795 !important;
+  }
+</style>
+{% endif %}
+
 <script src="https://www.googleoptimize.com/optimize.js?id=OPT-TL3RRQ7"></script>
   
   <script>

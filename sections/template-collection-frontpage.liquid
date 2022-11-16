@@ -234,7 +234,6 @@
               {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
             </div>
             <div class="h4 grid-view-item__title" aria-hidden="true">{{ 'homepage.onboarding.product_title' | t }}</div>
-            <h1>this is a test</h1>
             {% include 'product-price', variant: nil %}
             <p>{{ product.description | strip_html | truncate: 80 }}</p>
           </div>
