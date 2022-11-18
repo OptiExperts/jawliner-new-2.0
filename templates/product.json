@@ -48,75 +48,10 @@
       "settings": {
       }
     },
-    "16618947959fbe35aa": {
-      "type": "custom-faq",
-      "disabled": true,
-      "blocks": {
-        "15996017-0a5f-40b8-8e60-74ad83649c64": {
-          "type": "header",
-          "settings": {
-            "header": "Frequently asked questions"
-          }
-        },
-        "f30f9dc0-6d51-4908-8c74-7a5144cd3317": {
-          "type": "slide",
-          "settings": {
-            "question": "How long do you have to chew JAWLINER fitness gum before you see results",
-            "answer": "Most JAWLINER customers see visible results after only a few weeks of training with JAWLINER fitness chewing gum. However, we recommend integrating JAWLINER fitness gum into your daily routine for the long term. As with weight training in the gym, the most important and effective thing is to train regularly."
-          }
-        },
-        "a5430165-e426-47cb-8e3c-bf2bedec9f02": {
-          "type": "slide",
-          "settings": {
-            "question": "How often should you train with JAWLINER Fitness Chewing Gum?",
-            "answer": "We recommend 10-15 minutes every other day. Note that more exercise does not mean faster results. Like any other muscle in your body, the Jawline muscles need recovery time to grow optimally."
-          }
-        },
-        "f89de9c9-cfd2-40f6-ac22-565d57eff4e3": {
-          "type": "slide",
-          "settings": {
-            "question": "Which is more effective, JAWLINER silicone trainer or JAWLINER fitness gum?",
-            "answer": "You can't give a general answer to that. It totally depends on what type of person you are. The JAWLINER silicone trainer is more effective in itself, but because you can't do the workout as easily as with the chewing gum in between and from everywhere, it falls by the wayside for some people and they forget to work out regularly. Training with chewing gum is simply more discreet and easier, so people do it more often, more regularly and for longer periods of time, and that's what it's all about. The more regularly you train over a long period of time, the better the results."
-          }
-        },
-        "f76cf63c-cbaa-4d21-8954-90b84df39119": {
-          "type": "slide",
-          "settings": {
-            "question": "Can you get a chiseled Jawline just by chewing gum?",
-            "answer": "Yes and no! You can't get a Jawline by chewing normal gum, because it is too soft and the jaw muscles are not sufficiently trained. With the special fitness chewing gum from JAWLINER, currently the hardest chewing gum in the world, it is possible to train your jaw muscles only by chewing gum and thus get a more distinctive and chiseled jawline."
-          }
-        },
-        "30da038c-3ada-4a69-aaa5-174e816ef4d0": {
-          "type": "slide",
-          "settings": {
-            "question": "Is JAWLINER fitness gum harder than mastic resin?",
-            "answer": "Yes, JAWLINER Fitness Chewing Gum is more than twice as hard as Mastix Gum."
-          }
-        },
-        "962f73b6-9f3e-4904-a6cd-8fd0582d8eac": {
-          "type": "slide",
-          "settings": {
-            "question": "Is JAWLINER Fitness Chewing Gum harder than Falim?",
-            "answer": "Yes, JAWLINER Fitness Chewing Gum is more than three times harder than Falim Gum."
-          }
-        }
-      },
-      "block_order": [
-        "15996017-0a5f-40b8-8e60-74ad83649c64",
-        "f30f9dc0-6d51-4908-8c74-7a5144cd3317",
-        "a5430165-e426-47cb-8e3c-bf2bedec9f02",
-        "f89de9c9-cfd2-40f6-ac22-565d57eff4e3",
-        "f76cf63c-cbaa-4d21-8954-90b84df39119",
-        "30da038c-3ada-4a69-aaa5-174e816ef4d0",
-        "962f73b6-9f3e-4904-a6cd-8fd0582d8eac"
-      ],
-      "settings": {
-      }
-    },
     "bcf5f132-3044-4fde-8d8d-1ce154a797f5": {
       "type": "page",
       "settings": {
-        "page": "{{ product.metafields.custom.unique_faq.value }}"
+        "page": "doing-example"
       }
     }
   },
@@ -126,7 +61,6 @@
     "1655478963a6b021cd",
     "loox-product-reviews-app-section",
     "zp-product-footer-content",
-    "16618947959fbe35aa",
     "bcf5f132-3044-4fde-8d8d-1ce154a797f5"
   ]
 }
