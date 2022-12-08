@@ -103,6 +103,27 @@
       }
     }
     .h3 { color: #545557 !important; }
+
+
+  @media(min-width: 200px) and (max-width: 749px) {
+    .clearing-second {
+      clear: inherit !important;
+    }
+    .clearing-fifth {
+      clear: both !important;
+    }
+    .grid--uniform .small--one-half:nth-child(2n + 1) {
+      clear: inherit !important;
+    }
+    .custom-video-desktop {
+      display: none;
+    }
+    .custom-video-mob {
+      display: block;
+      margin-bottom: 30px !important;
+    }
+  }
+
 </style>
 
 {% schema %}
