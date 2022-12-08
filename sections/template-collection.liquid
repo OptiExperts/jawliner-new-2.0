@@ -73,7 +73,7 @@
     font-size: 2em;
     color: #545557 !important;
   }
-  
+  {% if collections.url contains 'frontpage' %}
     .index-section {
       padding-top: 0 !important;
     }
@@ -81,7 +81,7 @@
       margin-bottom: 0px !important;
       margin-top: 0px !important;
     }
-
+  {% endif %}
   .h3 { color: #545557 !important; }
 </style>
 
