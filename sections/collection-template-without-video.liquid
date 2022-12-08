@@ -27,7 +27,7 @@
 
   <ul class="grid grid--uniform grid--view-items">
     {% for product in collection.products limit: product_limit %}
-      <li class="{% if forloop.index == 5 %}  clearing-fifth {% endif %} grid__item grid__item--{{section.id}} {{ grid_item_width }}">
+      <li class="{% if forloop.index == 1 %}  clearing-second {% endif %} {% if forloop.index == 5 %}  clearing-fifth {% endif %} grid__item grid__item--{{section.id}} {{ grid_item_width }}">
         {% include 'product-card-grid', max_height: max_height %}
       </li>
     {% else %}
