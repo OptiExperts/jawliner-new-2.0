@@ -9,6 +9,17 @@
         "text_size": "medium"
       }
     },
+    "a83f8a32-1aca-451a-b053-847eadf02439": {
+      "type": "collection-template-without-video",
+      "settings": {
+        "title": "Chewing Gum",
+        "collection": "chewing-gum",
+        "grid": 3,
+        "rows": 2,
+        "show_vendor": false,
+        "show_view_all": false
+      }
+    },
     "main": {
       "type": "template-collection-frontpage",
       "settings": {
@@ -99,6 +110,7 @@
   },
   "order": [
     "951b3a15-e38d-4b20-854b-d203f00c16e4",
+    "a83f8a32-1aca-451a-b053-847eadf02439",
     "main",
     "ec9029df-a94e-41fa-b5f8-94014e008f3b",
     "e44bc0b4-c5c4-40b3-bdc9-c86892aa2fdf",
