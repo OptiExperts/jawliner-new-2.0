@@ -9,34 +9,22 @@
         "text_size": "medium"
       }
     },
-    "a83f8a32-1aca-451a-b053-847eadf02439": {
+    "ec9029df-a94e-41fa-b5f8-94014e008f3b": {
       "type": "collection-template-without-video",
       "settings": {
-        "title": "Chewing Gum",
-        "collection": "chewing-gum",
+        "title": "Best Seller",
+        "collection": "best-seller",
         "grid": 3,
         "rows": 2,
         "show_vendor": false,
         "show_view_all": false
       }
     },
-    "main": {
-      "type": "template-collection-frontpage",
+    "2fc4383d-21ae-4ef2-96f0-1d92675fdfc7": {
+      "type": "collection-template",
       "settings": {
-        "layout": "grid",
-        "grid": 3,
-        "rows": 1,
-        "show_collection_image": true,
-        "show_vendor": false,
-        "sort_enable": true,
-        "tags_enable": true
-      }
-    },
-    "ec9029df-a94e-41fa-b5f8-94014e008f3b": {
-      "type": "collection-template-without-video",
-      "settings": {
-        "title": "Best Seller",
-        "collection": "best-seller",
+        "title": "Chewing Gum",
+        "collection": "chewing-gum",
         "grid": 3,
         "rows": 2,
         "show_vendor": false,
@@ -106,15 +94,28 @@
       "settings": {
         "title": "Certificates"
       }
+    },
+    "main": {
+      "type": "template-collection-frontpage",
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "grid": 3,
+        "rows": 1,
+        "show_collection_image": true,
+        "show_vendor": false,
+        "sort_enable": true,
+        "tags_enable": true
+      }
     }
   },
   "order": [
     "951b3a15-e38d-4b20-854b-d203f00c16e4",
-    "a83f8a32-1aca-451a-b053-847eadf02439",
-    "main",
     "ec9029df-a94e-41fa-b5f8-94014e008f3b",
+    "2fc4383d-21ae-4ef2-96f0-1d92675fdfc7",
     "e44bc0b4-c5c4-40b3-bdc9-c86892aa2fdf",
     "0be840e8-98d8-497a-a8e8-4292af09958c",
-    "2f9be920-243a-4963-a594-2caed86ecb08"
+    "2f9be920-243a-4963-a594-2caed86ecb08",
+    "main"
   ]
 }
