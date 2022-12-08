@@ -2848,9 +2848,7 @@ hr {
     opacity: 0.7;
 }
 .index-section {
-    {% if collections.url != 'frontpage' %}
     padding-top: 35px;
-    {% endif %}
     padding-bottom: 35px;
 }
 @media only screen and (min-width: 750px) {
@@ -6627,7 +6625,9 @@ hr {
 }
   
   .index-section{
-  padding-bottom: 0 !important;}
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
   
   .slideshow__btn {
     min-height: auto !important;;
