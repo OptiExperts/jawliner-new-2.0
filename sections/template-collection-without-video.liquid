@@ -73,12 +73,13 @@
     font-size: 2em;
     color: #545557;
   }
-  {% if template contains 'collection' %}
+  {% if collections.url contains 'frontpage' %}
     .index-section {
       padding-top: 0 !important;
     }
     .section-header {
-      margin-bottom: 0 !important;
+      margin-bottom: 0px !important;
+      margin-top: 0px !important;
     }
   {% endif %}
 </style>
