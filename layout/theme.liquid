@@ -2,13 +2,17 @@
 {%- capture LS_INPUT -%}<!doctype html>
 {% comment ls-rpl %}<html class="no-js" lang="{{ shop.locale }}">{% endcomment %}<html class="no-js" lang="{%- render "ls-language" -%}" dir="{%- render "ls-language-direction" -%}">{% comment /ls-rpl %}{% endcomment %}
 <head>
-  <style>
   {% if collections.handle == 'frontpage' %}
+    <h1>this is a test</h1>
+  <style>
+  
+    <h1></h1>
     index-section {
     padding-bottom: 0px !important; 
   }
-    {% endif %}
+    
   </style>
+    {% endif %}
 <script src="https://www.googleoptimize.com/optimize.js?id=OPT-TL3RRQ7"></script>
   
   <script>
