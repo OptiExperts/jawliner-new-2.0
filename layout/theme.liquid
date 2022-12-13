@@ -3,7 +3,7 @@
 {% comment ls-rpl %}<html class="no-js" lang="{{ shop.locale }}">{% endcomment %}<html class="no-js" lang="{%- render "ls-language" -%}" dir="{%- render "ls-language-direction" -%}">{% comment /ls-rpl %}{% endcomment %}
 <head>
   <style>
-  {% if collection.handle == 'frontpage' %}
+  {% if collections.handle contains 'frontpage' %}
     index-section {
     padding-bottom: 0px !important; 
   }
