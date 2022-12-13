@@ -5412,6 +5412,7 @@ hr {
     -ms-align-items: center;
     -o-align-items: center;
     align-items: center;
+    margin-top: 10px;
 }
 @media only screen and (max-width: 749px) {
     .feature-row {
