@@ -250,7 +250,57 @@
   </script>
   {% render "geo" %}
 
+{% if product.url == "/products/beginner-one-pair" or product.url == "/products/beginner-and-advanced-pack" %}
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long do you have to train with the JAWLINER 3.0 until you see results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most JAWLINER clients see visible results after only a few weeks of training. However, we recommend to integrate the training with the JAWLINER 3.0 into your daily routine on a long-term basis. For this, 10-15 minutes of jaw muscle training every other day is more than sufficient. As with strength training in the gym, the most important thing is regular training."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long should a training session with the JAWLINER 3.0 last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "we recommend training for 10-15 minutes every other day. The day off is important so that the muscles can rest and regenerate. - When should I change to the next level?"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I change to the next level?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "there is no general time recommendation, because it is different for each person. Most of the time you will notice it yourself, when your training with the JAWLINER becomes easier and easier or when your teeth have almost bitten through the JAWLINER, then the time is ripe to change to the next higher level."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which is more effective, JAWLINER silicone trainer or JAWLINER fitness gum?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can't give a general answer to that. It totally depends on what type of person you are. The JAWLINER silicone trainer is more effective in itself, but because you can't do the workout as easily as with the chewing gum in between and from everywhere, it falls by the wayside for some people and they forget to work out regularly. Training with chewing gum is simply more discreet and easier, which is why people do it more often, more regularly and for longer periods of time, and that's what it's all about. The more regularly you train over a long period of time, the better the results will be."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is JAWLINER 3.0 bad for my teeth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not at all! Your molars can chew much harder and tougher things than JAWLINER, so don't worry about that! BUT beware, there are a lot of other jaw muscle trainers that use your incisors for training. These are definitely dangerous, because our incisors are not designed for high impact, these trainers can lead to serious injury. For more information, read our blog article on the topic: Is JAWLINER dangerous? We find out what doctors say."
+      }
+    }
+  ]
+}
+</script>
+{% endif %}
   
 {% if page.url == '/pages/jawliner3-0' %}
    
