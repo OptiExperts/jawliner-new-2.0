@@ -250,6 +250,42 @@
   </script>
   {% render "geo" %}
 
+{% if product.url == "/products/jawline-coaching" %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I get the coaching after the purchase?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After the purchase you will receive the access data by email, so that you immediately get access to your own online academy with all important and useful videos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will the coaching also include Mewing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, the coaching is about training exercises to build muscles in the face. For all Mewing fans we wanna recommend out mewing blog."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the coaching over after the 12 weeks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We have recorded videos for you to do daily exercises for 12 weeks. After the 12 weeks you are a pro yourself and we don't need to teach you anything. You decide which exercises are best for you and do them on your own, hopefully for years to come."
+      }
+    }
+  ]
+}
+</script>
+{% endif %}
+  
 {% if product.url == "/products/jawliner-fitness-chewing-gum" or product.url == "/products/jawliner-fitness-chewing-gum-2-0-ginger-lime-mint" %}
 
 <script type="application/ld+json">
