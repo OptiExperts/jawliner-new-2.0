@@ -250,7 +250,7 @@
   </script>
   {% render "geo" %}
 
-{% if product.url == "/products/jawliner-fitness-chewing-gum" %}
+{% if product.url contains "jawliner-fitness-chewing-gum" %}
 
 <script type="application/ld+json">
 {
@@ -347,7 +347,7 @@
 {% endif %}
 
   
-{% if product.url == "/products/jawliner-fitness-chewing-gum-2-0-ginger-lime-mint" or product.url == "/products/jawliner-fitness-chewing-gum" %}
+{% if product.url == "/products/jawliner-fitness-chewing-gum-2-0-ginger-lime-mint" %}
 
 <script type="application/ld+json">
 {
