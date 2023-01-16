@@ -6,6 +6,12 @@
     {%- render 'header-scripts.zipifypages', renderctx: 'lsctn' -%}{{ content_for_header }}
   
   {% render 'shogun-head' %}
+
+  <!-- REAMAZE INTEGRATION START - DO NOT REMOVE -->
+{% render 'reamaze-config' %}
+{% render 'reamaze-sso' %}
+<!-- REAMAZE INTEGRATION END - DO NOT REMOVE -->
+
 </head>
   <body>
     {{ content_for_layout }}
