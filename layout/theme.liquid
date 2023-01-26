@@ -1,7 +1,8 @@
 
 {%- capture LS_INPUT -%}<!doctype html>
 {% comment ls-rpl %}<html class="no-js" lang="{{ shop.locale }}">{% endcomment %}<html class="no-js" lang="{%- render "ls-language" -%}" dir="{%- render "ls-language-direction" -%}">{% comment /ls-rpl %}{% endcomment %}
-<head>
+{% render "ls-languages-switcher",  %}
+  <head>
   {% if collection.handle == 'frontpage' %}
   
   <style>
