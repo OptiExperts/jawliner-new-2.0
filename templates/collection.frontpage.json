@@ -24,7 +24,7 @@
       "type": "collection-template",
       "settings": {
         "title": "Chewing Gum",
-        "collection": "chewing-gum",
+        "collection": "jawline-chewing-gum",
         "grid": 3,
         "rows": 2,
         "show_vendor": false,
